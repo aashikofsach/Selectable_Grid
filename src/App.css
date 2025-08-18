@@ -5,3 +5,11 @@
   text-align: center;
   font-family: Poppins;
 }
+
+.grid {
+  /* text-align: center; */
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(var(--cols, 10), 35px);
+  grid-template-rows: repeat(var(--rows, 10), 35px);
+}

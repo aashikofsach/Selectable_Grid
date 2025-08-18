@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import SelectableGrid from './components/SelectableGrid'
 
@@ -7,7 +6,7 @@ function App() {
   return (
     <div>
       <h1>Selectable Grid</h1>
-      <SelectableGrid  row={} cols ={}/>
+      <SelectableGrid  row={10} cols ={10}/>
 
 
     </div>
