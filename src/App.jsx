@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <h1>Selectable Grid</h1>
-      <SelectableGrid  row={10} cols ={10}/>
+      <SelectableGrid  row={20} cols ={20}/>
 
 
     </div>
